@@ -1,6 +1,7 @@
 #  My Blogsite Application
 
 ### MyBlog is a blogging website where a user can create and share their blogs. Users can interact with the system. Additionally, the website has a feature that displays random quotes to inspire users.
+
 #### By **Joy Machuka**
 
 + [Description](#Description)
