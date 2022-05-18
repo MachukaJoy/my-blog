@@ -13,7 +13,7 @@
                 {% if user.profile_pic_path %}
                 <img src="{{url_for('static',filename=user.profile_pic_path)}}" alt="profile-pic" class="img-circle">
                 {%else%}
-                <p>Upps! no profile picture🤪</p>
+                <p>No profile picture🤪</p>
                 {% endif %}
             </div>
         </div>
@@ -21,7 +21,7 @@
         <div class="row">
             <div class="col-md-4">
                 <p><b>Name:</b> {{user.firstname}} {{user.lastname}} </p>
-                <p> <b> No of piches:</b> {{pitches_count}}</p>
+                <p> <b> No of blogs:</b> {{blogs_count}}</p>
                 <p> <b>Date joined:</b> {{date}}</p>
             </div>
             <!-- <div class="row"> -->

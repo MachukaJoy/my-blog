@@ -8,11 +8,16 @@
 
 {% block content %}
 
-<div class="container">
-    <h1>Update Blog</h1>
-</div>
-<div class='container'>
-    {{wtf.quick_form(form)}}
-</div>
+<div  class='container' id="updateblog" >
+    <h1 style="margin: 5%; text-align: center">Update Blog</h1>
+    <div class="col-md-6"></div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    {{wtf.quick_form(form)}}
+                </div>
 
+            </div>
+        </div>
+</div>
 {% endblock %} 

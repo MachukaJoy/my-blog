@@ -1,5 +1,14 @@
+body{
+  background-color: rgb(5, 44, 102);
+}
+.nav-link, .navbar-brand,.dropdown-toggle, #signing{
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+
+}
 .home {
-  background-image: url("../static/images/homebg.jpg");
+  background-image: url("../static/images/homebg2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,5 +17,28 @@
 .panel{
     box-shadow: 0 4px 8px 0 rgba(202, 33, 33, 0.2);
     transition: 0.3s;
-    /* text-align: center; */
+}
+#typeblog{
+  background-image: url("../static/images/blogbg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+#updateblog{
+  background-image: url("../static/images/blog2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+#logs{
+  background-image: url("../static/images/login2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  color:orangered;
+  font-weight: bolder;
+
 }

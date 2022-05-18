@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse navbar-dark default-color">
+<nav class="mb-1 navbar navbar-expand-lg navbar-dark bg-dark"id="nav">
   <div class="container-fluid">
       <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -34,7 +34,7 @@
                 </ul>
             </li>
             {% else %}
-            <li><a href="{{url_for('auth.login')}}">🙎‍♂️ Sign in</a></li>
+            <li><a href="{{url_for('auth.login')}}"id="signing">🙎‍♂️ Sign in</a></li>
         </ul>
           {%endif%}
       </div>

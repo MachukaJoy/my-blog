@@ -8,7 +8,7 @@ class UpdateProfile(FlaskForm):
 
 class BlogForm(FlaskForm):
     title_blog = StringField('Title')
-    description = TextAreaField('Write a Description', validators=[InputRequired()])
+    description = TextAreaField('Type here', validators=[InputRequired()])
     submit = SubmitField('Submit')
 
 class CommentForm(FlaskForm):
